@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.iit.ex1.fragment.MainFragment">
+
+    <RadioGroup
+        android:id="@+id/hat_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button_hat_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hat_none_text" />
+
+        <RadioButton
+            android:id="@+id/radio_button_hat_panama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hat_1_text" />
+
+        <RadioButton
+            android:id="@+id/radio_button_hat_sombrero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hat_2_text" />
+
+        <RadioButton
+            android:id="@+id/radio_button_hat_chapeau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hat_3_text" />
+
+        <RadioButton
+            android:id="@+id/radio_button_hat_lunette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hat_4_text" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
